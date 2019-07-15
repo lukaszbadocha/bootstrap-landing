@@ -1,0 +1,23 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* Join us section styles START */
+
+.join-us {
+    background-image: url(../img/form-background.jpg);
+    background-size: cover;
+    padding: 120px 0;
+    background-position: center;
+    color: #c2c2c2;
+}
+
+.join-us  .form-header {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 25px;
+}
+
+.join-us .form-header .fa-pencil-alt {
+    font-size: 3.7em;
+}

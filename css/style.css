@@ -2,13 +2,77 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+a,
+a:visited {
+    color: #e38f42;
+}
+
+section {
+    padding: 120px 0;
+}
+
+p {
+    color: #888;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.btn,
+.btn:visited {
+    transition: all .3s;
+    color: #fff;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn-orange,
+.btn-orange:visited {
+    background-color: #e38f42;
+    border-color: #e38f42;
+}
+
+.btn-orange:hover {
+    background-color: #e38f42;
+    border-color: #e38f42;
+}
+
+.btn-gray,
+.btn-gray:visited {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-color: rgba(0, 0, 0, 0.3);
+}
+
+.btn-gray:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Navbar styles START */
+
+.navbar {
+    background-color: #444;
+}
+.navbar.navbar-light .navbar-brand,
+.navbar.navbar-light .navbar-nav .nav-link {
+    color: #c2c2c2;
+    transition: all .3s;
+}
+
+.navbar.navbar-light .navbar-brand:hover,
+.navbar.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+}
 
 /* Join us section styles START */
 
 .join-us {
     background-image: url(../img/form-background.jpg);
     background-size: cover;
-    padding: 120px 0;
     background-position: center;
     color: #c2c2c2;
 }
@@ -20,4 +84,36 @@ body {
 
 .join-us .form-header .fa-pencil-alt {
     font-size: 3.7em;
+}
+
+.join-us .form-box .form {
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.join-us .form-box textarea,
+.join-us .form-box input {
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.join-us .content-holder {
+    padding-top: 120px;
+}
+
+
+/* About secion styles START */
+
+.about {
+    background-color: #f8f8f8;
+}
+
+
+/* Responsive media */
+@media (max-width: 768px) {
+    .video-holder {
+        height: 400px;
+        margin-bottom: 30px;
+    }
 }
